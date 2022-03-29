@@ -13,23 +13,23 @@ h1 {
 .header {
     background-color: #FFC500;
     font-family: Arial, Helvetica, sans-serif;
-    position: fixed;
     width: 100%;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
 }
 .title {
     color: white; 
-    float: left;
-    position: relative;
-    left: 10px
+    
 }
-.header a {
+.nav a {
     color: white;
     text-decoration: none;
-    float: right;
     padding: 0 10px;
     position: relative;
-    right: 10px;
+    right: 20px;
 }
 /*Content Section*/
 .content {
